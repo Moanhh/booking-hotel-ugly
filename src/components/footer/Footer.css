@@ -1,0 +1,46 @@
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#cccccc;
+    color:white;
+    margin-top:40px
+  }
+  .footer {
+    width: 100%;
+    width: 1024px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .fLists {
+    width: 100%;
+    display: flex;
+    
+    font-size: 15px;
+  }
+  .fList {
+    list-style: none;
+    padding-left: 16rem;
+    position: relative;
+  }
+.logo1 {
+    padding-left:14rem;
+    font-size:45px;
+    color: #003580;
+    
+}
+  .fListItem {
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+    
+  }
+  .fText {
+    color: #003580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }

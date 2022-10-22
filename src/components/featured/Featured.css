@@ -1,0 +1,43 @@
+.featured{
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1;
+  margin-top:60px;
+}
+h3 {
+  color: #ff9999;
+  border: 1px solid #ffe6e6;
+  background-color: #ffffe6;
+
+}
+.featuredItem{
+  justify-content: space-around;
+  position: relative;
+  color: rgb(223, 10, 120);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 250px;
+  flex:1
+}
+
+.featuredImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredTitles{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+txt {
+  color: #ff9999;
+  border: 1px solid #ffe6e6;
+  background-color: #ffffe6;
+  text-decoration: none;
+  color: white;
+}
